@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'GeometriaRegular';
+	src: url('../fonts/Geometria.eot');
+	src: local('../fonts/Geometria'),
+		url('../fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Geometria.woff') format('woff'),
+		url('../fonts/Geometria.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeometriaMedium';
+	src: url('../fonts/Geometria-Medium.eot');
+	src: local('../fonts/Geometria Medium'), local('Geometria-Medium'),
+		url('../fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Geometria-Medium.woff') format('woff'),
+		url('../fonts/Geometria-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'NewStandardOld';
+    src: url('../fonts/NewStandardOld.eot');
+    src: url('../fonts/NewStandardOld.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NewStandardOld.woff2') format('woff2'),
+        url('../fonts/NewStandardOld.woff') format('woff'),
+        url('../fonts/NewStandardOld.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+ 
+
+
+
+
+
+@font-face {
+	font-family: 'ClearSansBold';
+	src: url('../fonts/ClearSans-Bold.eot');
+	src: url('../fonts/ClearSans-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/ClearSans-Bold.woff') format('woff'),
+	url('../fonts/ClearSans-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
