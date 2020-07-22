@@ -113,15 +113,14 @@
 	z-index: 700;
 }
 .wrapper {
-	padding-top: 96px;
+	padding-top: 63px;
 }
 .btn_nav {
-	margin-left: 23px;
 	display: inline-block;
 }
 .navigation {
 	position: fixed;
-	top: 98px;
+	top: 63px;
 	left: 0;
 	width: 100%;
 	background-color: #fff;
@@ -179,6 +178,26 @@
 }
 .boutique__name {
 	padding-top: 30px;
+}
+.row_bottom-header,
+.hidden_mob {
+	display: none;
+}
+.navigation .header-icons {
+	padding: 22px 0;
+	justify-content: flex-start;
+}
+.navigation .header-icon {
+	margin-left: 0;
+	margin-right: 15px;
+}
+.menu-link {
+	font-size: 16px;
+	border-top: 1px solid rgba(0, 0, 0, .4);
+	border-bottom: none;
+}
+.menu-wrap {
+	border: none;
 }
 }
 
@@ -261,6 +280,11 @@
     padding-top: 30px;
     padding-bottom: 15px;
     }
+    .main-photo img {
+    	height: 240px;
+    	width: auto;
+    	max-width: inherit;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -286,6 +310,9 @@
 .navigation {
 	height: auto !important;
 	display: block !important;
+}
+.show_mob {
+	display: none !important;
 }
 }
 

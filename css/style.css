@@ -104,12 +104,6 @@ body {
 .heade-man {
     color: #000000;
     font-size: 14px;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex;
-    align-items: center;
     font-weight: 400;
 
 }
@@ -188,9 +182,14 @@ justify-content: flex-end;
 
 .main-photo {
     width: 100%;
-    padding: 210px 0px 186px 40px;
-    background: url('../img/main/STELLA-MCCARTNEY-SUPERSTELLAHEROES-COLLECTION.jpg') no-repeat center/cover;
+    padding: 0px !important;
 
+}
+.main-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
 }
 .main-title {
     color: #000000;
@@ -882,6 +881,7 @@ display: grid;
     content: " ";
 width: 1px;
 height: 20px;
+top: -2px;
 left: 20px;
 background-color: #b0a563;
 }
