@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/null.css">
-    <link rel="stylesheet" href="css/style.css?ver=1.2">
-    <link rel="stylesheet" href="css/media.css?ver=1.2">
+    <link rel="stylesheet" href="css/style.css?ver=1.5">
+    <link rel="stylesheet" href="css/media.css?ver=1.5">
     <title>Document</title>
 </head>
 <body>
@@ -21,10 +21,20 @@
                 <div class="row">
                     <div class="col-md-4 col-3">
                         <div class="left-header">
-                            <div class="header-item">
+                            <span class="btn_nav">
+                                <span class='sandwich'>
+                                    <span class='sw-topper'></span>
+                                    <span class='sw-bottom'></span>
+                                    <span class='sw-footer'></span>
+                                </span>
+                            </span>
+                            <div class="header-icon show_mob">
+                                <a href="#"><img src="img/icons/search.svg" alt="alt"></a>
+                            </div>
+                            <div class="header-item hidden_mob">
                                 <a href="#"><img src="img/icons/pin-round.svg" alt="alt" /></a>
                             </div>
-                            <div class="header-item ">
+                            <div class="header-item  hidden_mob">
                                 <a href="#"><img class="icon-shop" src="img/icons/shop-1.svg" alt="alt"></a>
                             </div>
                         </div>
@@ -44,14 +54,14 @@
                             <div class="header-delivery">
                                 Бесплатно по России
                             </div>
-                            <a href="tel:88000000000" rel="nofolow" class="phone-btn"><i class="fas fa-phone-alt"></i></a>
-                            <span class="btn_nav">
-                                <span class='sandwich'>
-                                    <span class='sw-topper'></span>
-                                    <span class='sw-bottom'></span>
-                                    <span class='sw-footer'></span>
-                                </span>
-                            </span>
+                            <div class="header-icons show_mob">
+                                <div class="header-icon">
+                                    <a href="#"><img src="img/icons/heart.svg" alt="alt"></a>
+                                </div>
+                                <div class="header-icon">
+                                    <a href="#"><img src="img/icons/tote.svg" alt="alt"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -80,7 +90,7 @@
                             <a href="#"><img src="img/icons//user.svg" alt="alt"></a>
                         </div>
                         <div class="header-icon">
-                            <a href="#"><img src="img/icons/heart.svg  " alt="alt"></a>
+                            <a href="#"><img src="img/icons/heart.svg" alt="alt"></a>
                         </div>
                         <div class="header-icon">
                             <a href="#"><img src="img/icons/tote.svg" alt="alt"></a>
@@ -98,32 +108,48 @@
          <div class="menu-wrap">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <ul class="menu">
-                        <li class="menu-items"><a href="#" class="menu-link">Новинки</a></li>
-                        <li class="menu-items"><a href="#" class="menu-link">Бренды</a></li>
-                        <li class="menu-items"><a href="#" class="menu-link">Одежда  </a></li>
-                        <li class="menu-items"><a href="#" class="menu-link">Обувь</a></li>
-                        <li class="menu-items"><a href="#" class="menu-link">Аксессуары</a></li>
-                        <li class="menu-items"><a href="#" class="menu-link">Аутлет </a></li>
-                    </ul>
+                    <div class="show_mob">
+                        <div class="gender-wrap">
+                           <div class="header-women">
+                            <a class="header-link" href="#">Женское</a>
+                        </div>
+                        <div class="heade-man">
+                            <a class="header-link" href="#">Мужское</a>
+                        </div>
+                    </div>
+                    <div class="header-icons">
+                        <div class="header-icon">
+                            <a href="#"><img src="img/icons/search.svg" alt="alt"></a>
+                        </div>
+                        <div class="header-icon">
+                            <a href="#"><img src="img/icons//user.svg" alt="alt"></a>
+                        </div>
+                        <div class="header-icon">
+                            <a href="#"><img src="img/icons/heart.svg" alt="alt"></a>
+                        </div>
+                        <div class="header-icon">
+                            <a href="#"><img src="img/icons/tote.svg" alt="alt"></a>
+                        </div>
+                    </div>
                 </div>
+                <ul class="menu">
+                    <li class="menu-items"><a href="#" class="menu-link">Новинки</a></li>
+                    <li class="menu-items"><a href="#" class="menu-link">Бренды</a></li>
+                    <li class="menu-items"><a href="#" class="menu-link">Одежда  </a></li>
+                    <li class="menu-items"><a href="#" class="menu-link">Обувь</a></li>
+                    <li class="menu-items"><a href="#" class="menu-link">Аксессуары</a></li>
+                    <li class="menu-items"><a href="#" class="menu-link">Аутлет </a></li>
+                </ul>
             </div>
         </div>
     </div>
+</div>
 </nav>
 
 <div class="main-block">
     <div class="container">
         <div class="main-photo">
-            <div class="main-title">
-                STELLA <br> MCCARTNEY 
-            </div>
-            <div class="seasons">
-                весна/лето
-            </div>
-            <div class="year">
-                2020
-            </div>
+            <img src="img/main1.jpg" alt="alt">
         </div>
     </div>
 </div>
