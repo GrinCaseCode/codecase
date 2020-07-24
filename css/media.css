@@ -26,6 +26,47 @@
 .boutique__logo, .boutique .link-insta {
     margin-left: 25px;
 }
+.card .col_pl {
+	padding-left: 15px;
+}
+.card__title {
+	max-width: 100%;
+	margin-top: 30px;
+}
+.row_price {
+	max-width: 405px;
+}
+.row_form {
+	max-width: 375px;
+}
+.hidden_tablet {
+	display: none !important;
+}
+.card__title {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+.list-catalog {
+	display: none;
+}
+.catalog__title {
+	padding-bottom: 20px;
+}
+.btn-main_filter {
+	margin-bottom: 20px;
+	width: 350px;
+	max-width: 100%;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+}
+.list-catalog li {
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 49%;
+}
 }
 
 /* Small Devices, Tablets */
@@ -199,6 +240,39 @@
 .menu-wrap {
 	border: none;
 }
+.col_pr {
+	padding-right: 15px;
+}
+.row_size .item-form {
+	margin-bottom: 10px;
+}
+.card__price {
+	padding-bottom: 10px;
+}
+.row__bottom-card {
+    margin-top: 10px;
+}
+.card__title-block {
+	padding-top: 30px;
+}
+.right-filter {
+	margin-top: 20px;
+	text-align: left;
+}
+.filters-wrap .select-filter {
+	margin-top: 15px;
+    margin-right: 25px;
+}
+.title-filter {
+	padding-bottom: 10px;
+}
+.filters-wrap {
+	flex-wrap: wrap;
+}
+.link-page_more {
+	margin-top: 35px;
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -285,6 +359,53 @@
     	width: auto;
     	max-width: inherit;
     }
+    .slider-nav__item {
+    	height: 80px;
+    }
+    .slider-nav {
+    width: 70px;
+}
+.slider-for {
+    width: 80%;
+    width: calc(100% - 80px);
+}
+.slider-for__item {
+    height: 395px;
+}
+.like-link {
+	right: 20px;
+}
+.external-link {
+	right: 20px;
+}
+.row_size {
+	padding-top: 15px;
+}
+.row_price {
+	padding-top: 30px;
+}
+.row_form .btn-black {
+	font-size: 12px;
+}
+.row_form {
+	margin-top: 30px;
+}
+.row_catalog .hits-slider__item  {
+	margin-top: 25px;
+}
+.btn-main_filter {
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.item-term__icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 15px;
+    }
+    .item-term {
+    	margin-bottom: 25px;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -318,7 +439,9 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+.show_tablet {
+	display: none !important;
+}
 }
 
  /* Large Devices, Wide Screens */

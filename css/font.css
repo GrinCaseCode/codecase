@@ -19,7 +19,14 @@
 	font-weight: 500;
 	font-style: normal;
 }
-
+@font-face {
+	font-family: "Geometria-Bold";
+	src: url("../fonts/Geometria-Bold.otf?#iefix")format("embedded-opentype"),
+	url("../fonts/Geometria-Bold.otf") format("truetype"),
+	url("../fonts/Geometria-Bold.eot") format("eot");
+	font-style: normal;
+	font-weight: normal;
+}
 
 @font-face {
     font-family: 'NewStandardOld';
