@@ -334,6 +334,7 @@
     	margin-bottom: 30px;
     }
     .row_about .col-md-5 {
+    	text-align: center;
     	-webkit-order: -1;
     	-moz-order: -1;
     	-ms-order: -1;
