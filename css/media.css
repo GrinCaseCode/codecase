@@ -585,6 +585,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	.btn-main_filter,
 .show_tablet {
 	display: none !important;
 }
