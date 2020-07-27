@@ -378,6 +378,18 @@
 .item-delivery {
 	max-width: 100%;
 }
+.boutique__image {
+    transform: translateX(0%);
+}
+.boutique a, .boutique {
+    color: #fff;
+}
+.boutique__logo img:nth-child(2) {
+	opacity: 1;
+}
+.boutique__logo img:nth-child(1) {
+	opacity: 0;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -581,4 +593,9 @@
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
+}
+@media only screen and (min-width : 3300px) {
+.boutique__image {
+    transform: translateX(300%);
+}
 }
