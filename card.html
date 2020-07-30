@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
     <link rel="stylesheet" href="css/font.css?ver=1.7">
     <link rel="stylesheet" href="css/null.css">
-    <link rel="stylesheet" href="css/style.css?ver=1.10">
-    <link rel="stylesheet" href="css/media.css?ver=1.10">
+    <link rel="stylesheet" href="css/style.css?ver=1.15">
+    <link rel="stylesheet" href="css/media.css?ver=1.15">
     <title>Document</title>
 </head>
 <body>
@@ -210,8 +210,8 @@
             <li><a href="#">Каталог</a><span>></span></li>
             <li><a href="#">Женское</a><span>></span></li>
             <li><a href="#">Одежда</a><span>></span></li>
-            <li><a href="#">Платья</a><span>></span></li>
-            <li> Струящееся платье с рукавами-клеш и контрастной символикой «V»</li>
+            <li><a href="#">Платья</a><span class="hidden_mob">></span></li>
+            <li class="hidden_mob"> Струящееся платье с рукавами-клеш и контрастной символикой «V»</li>
         </ul>
         <div class="row">
             <div class="col-lg-6">
@@ -303,10 +303,10 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col_pl">
-                        <div class="card__line"><strong>Артикул:</strong> АА000000</div>
-                        <div class="card__line"><strong>Бренд:</strong> Valentino</div>
-                        <div class="card__line"><strong>Страна-производитель:</strong> Италия</div>
-                        <div class="card__line">
+                        <div class="card__line hidden_mob"><strong>Артикул:</strong> АА000000</div>
+                        <div class="card__line card__line_brand"><strong>Бренд:</strong> Valentino</div>
+                        <div class="card__line hidden_mob"><strong>Страна-производитель:</strong> Италия</div>
+                        <div class="card__line card__line_color">
                             <strong>Цвет:</strong> 
                             <span>Бордовый</span>
                             <ul class="color-list">
@@ -357,13 +357,13 @@
                     </form>
                 </div>
                 <div class="col-md-4">
-                    <div class="card__title-block">Доставка</div>
+                    <div class="card__title-block">Доставка <i class="fas fa-plus"></i></div>
                     <ul class="list-simple">
                         <li>По Симферополю бесплатно</li>
                         <li>Самовывоз из бутика в Симферополе</li>
                         <li>Доставка по Крыму и РФ: ТК, почтой.</li>
                     </ul>
-                    <div class="card__title-block card__title-block_bottom">Оплата</div>
+                    <div class="card__title-block card__title-block_bottom">Оплата <i class="fas fa-plus"></i></div>
                     <ul class="list-simple">
                         <li>Наличными</li>
                         <li>На расчётный счёт</li>
@@ -376,8 +376,8 @@
     <div class="row row__bottom-card">
         <div class="col-lg-4">
             <div class="dropdown-card">
-                <div class="dropdown-card__title active">Состав и описание <i class="fas fa-plus"></i></div>
-                <div class="dropdown-card__content" style="display: block;">
+                <div class="dropdown-card__title">Состав и описание <i class="fas fa-plus"></i></div>
+                <div class="dropdown-card__content">
                     <p>Платье от Valentino из фактурной вискозы — струящаяся ткань с матовой текстурой подчеркивает плавные линии кроя. Элегантный образ создает продуманный до мелочей дизайн: расклешенные рукава ¾, а ворот-стойка в аристократическом стиле продолжен широкими лентами с контрастными вставками в виде инициалов «V». Детали: легкая конструкция без подкладки, застежка на потайную молнию на спинке. Сделано в Италии.</p>
                 </div>
             </div>
@@ -683,6 +683,6 @@
 </div>
 <script src="libs/jquery/jquery-3.5.1.min.js"></script>
 <script src="libs/slick/slick.min.js"></script>
-<script src="js/main.js?ver=1.10"></script>
+<script src="js/main.js?ver=1.15"></script>
 </body>
 </html>
