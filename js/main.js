@@ -32,6 +32,13 @@ $(document).ready(function(){
     slidesToShow: 1,
     asNavFor: '.slider-nav',
     slidesToScroll: 1,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+       fade: false,
+      } 
+    }
+    ]
   });
 
 
@@ -121,6 +128,17 @@ $(document).ready(function(){
       }
     });
 
+      $(".card__title-block").click(function(e) {
+      e.preventDefault();
+      if ($(this).next(".list-simple").is(":hidden")) {
+        $(this).next(".list-simple").slideDown(200);
+         $(this).addClass("active");
+      } else {
+        $(this).next(".list-simple").slideUp(200);
+          $(this).removeClass("active");
+      }
+    });
+
 
     $(".main-link__all").click(function(e) {
       e.preventDefault();
@@ -150,6 +168,8 @@ $(document).ready(function(){
     $(window).resize(function() {
       heightDetect();
     });
+
+objectFitImages()
 
   });
 
