@@ -1529,6 +1529,7 @@ line-height: 21px;
     padding-top: 15px;
     display: none;
 }
+.card__title-block i,
 .dropdown-card__title i {
     font-size: 10px;
     position: absolute;
@@ -1541,6 +1542,7 @@ line-height: 21px;
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
+.card__title-block.active i,
 .dropdown-card__title.active i {
     transform: rotate(45deg);
 }
