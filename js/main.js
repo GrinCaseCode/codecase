@@ -60,6 +60,21 @@ $(document).ready(function(){
    }]
  });
 
+  $(".filter-mob__btn_filter").click(function(event) {
+    event.preventDefault();
+    $(".filter-modal_filter").fadeIn(200);
+  });
+
+   $(".filter-mob__btn_sorting").click(function(event) {
+    event.preventDefault();
+    $(".filter-modal_sorting").fadeIn(200);
+  });
+
+   $(".filter-modal__close").click(function(event) {
+    event.preventDefault();
+    $(".filter-modal").fadeOut(200);
+  });
+
   (function($, window){
   var arrowWidth = 30;
 
