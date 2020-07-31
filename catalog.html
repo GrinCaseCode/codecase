@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
     <link rel="stylesheet" href="css/font.css?ver=1.7">
     <link rel="stylesheet" href="css/null.css">
-    <link rel="stylesheet" href="css/style.css?ver=1.15">
-    <link rel="stylesheet" href="css/media.css?ver=1.15">
+    <link rel="stylesheet" href="css/style.css?ver=1.55">
+    <link rel="stylesheet" href="css/media.css?ver=1.55">
     <title>Document</title>
    </head>
    <body>
@@ -201,7 +201,7 @@
 </nav>
          <div class="catalog">
             <div class="container">
-               <ul class="breadcumbs breadcumbs_main">
+               <ul class="breadcumbs breadcumbs_main hidden_mob">
                   <li><a href="#">Каталог</a><span>></span></li>
                   <li><a href="#">Женское</a><span>></span></li>
                   <li><a href="#">Одежда</a><span>></span></li>
@@ -210,7 +210,6 @@
                <div class="row">
                   <div class="col-lg-2">
                      <div class="catalog__title">Одежда</div>
-                     <a href="#" class="btn-main btn-main_filter">Открыть фильтр</a>
                      <ul class="list-catalog">
                         <li class="active"><a href="#">Вся одежда</a></li>
                         <li><a href="#">Обувь</a></li>
@@ -234,7 +233,66 @@
                      </ul>
                   </div>
                   <div class="col-lg-10">
-                     <div class="row">
+                    <ul class="gender-mobile">
+                      <li><a href="#">Мужское</a></li>
+                       <li class="active"><a href="#">Женское</a></li>
+                    </ul>
+                    <div class="filter-mob">
+                      <a href="#" class="filter-mob__btn filter-mob__btn_filter">Фильтровать</a>
+                      <a href="#" class="filter-mob__btn filter-mob__btn_sorting">Сортировать</a>
+                    </div>
+                    <div class="filter-modal filter-modal_filter">
+                      <div class="filter-modal__close">
+                        <img src="img/close2.svg" alt="alt">
+                      </div>
+                      <div class="filter-modal__title">Фильтровать</div>
+                      <div class="select-filter">
+                       <select>
+                        <option value="1">Бренд</option>
+                        <option value="1">Бренд 1</option>
+                        <option value="1">Бренд 2</option>
+                      </select>
+                    </div>
+                    <div class="select-filter">
+                     <select>
+                      <option value="1">Сезон</option>
+                      <option value="1">Лето</option>
+                      <option value="1">Зима</option>
+                      <option value="1">Весна</option>
+                      <option value="1">Осень</option>
+                    </select>
+                  </div>
+                  <div class="select-filter">
+                   <select>
+                    <option value="1">Цвет</option>
+                    <option value="1">Черный</option>
+                    <option value="1">Белый</option>
+                    <option value="1">Красный</option>
+                  </select>
+                </div>
+                <div class="select-filter">
+                 <select>
+                  <option value="1">Размер</option>
+                  <option value="1">S</option>
+                  <option value="1">M</option>
+                  <option value="1">L</option>
+                </select>
+              </div>
+                    </div>
+                    <div class="filter-modal filter-modal_sorting">
+                      <div class="filter-modal__close">
+                        <img src="img/close2.svg" alt="alt">
+                      </div>
+                      <div class="filter-modal__title">Сортировать</div>
+                     <div class="select-filter">
+                                 <select>
+                                    <option value="1">По умолчанию</option>
+                                    <option value="1">По популярности</option>
+                                    <option value="1">По цене</option>
+                                 </select>
+                              </div>
+                    </div>
+                     <div class="row hidden_mob">
                         <div class="col-md-8">
                            <div class="title-filter">Фильтровать</div>
                            <div class="filters-wrap">
@@ -860,6 +918,6 @@
       </div>
       <script src="libs/jquery/jquery-3.5.1.min.js"></script>
 <script src="libs/slick/slick.min.js"></script>
-<script src="js/main.js?ver=1.10"></script>
+<script src="js/main.js?ver=1.55"></script>
    </body>
 </html>
