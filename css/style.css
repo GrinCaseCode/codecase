@@ -1,6 +1,6 @@
 body {
     font-size: 16px;
-    font-family: 'GeometriaRegular', sans-serif;
+    font-family: "SFUIDisplay-Regular";
     overflow-x: hidden;
     background-color: #fff;
 
@@ -54,7 +54,7 @@ body {
 
 .header-number a {
     color: #000000;
-    font-family: 'GeometriaMedium';
+    font-family: "SFUIDisplay-Bold";
     font-size: 16px;
     font-weight: 500;
         transition: .2s all;
@@ -160,7 +160,7 @@ justify-content: flex-end;
 
 .menu-link {
     color: #000000;
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 15px;
     font-weight: 500;
     line-height: 30px;
@@ -177,7 +177,8 @@ justify-content: flex-end;
 
 
 .main-block {
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     padding: 0px 0px 46px 0px;
 
 }
@@ -265,7 +266,8 @@ justify-content: flex-end;
 .hits-title {
     position: relative;
     color: #000000;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     font-size: 36px;
     font-weight: 400;
     line-height: 48px;
@@ -341,7 +343,8 @@ justify-content: flex-end;
     margin-bottom: auto;
     text-align: center;
     color: #000000;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     font-size: 16px;
     font-weight: 700;
     display: block;
@@ -358,7 +361,7 @@ justify-content: flex-end;
 }
 .hits-slider__price {
     color: #000000;
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 14px;
     font-weight: 500;
     display: block;
@@ -452,7 +455,8 @@ a:hover .clothes-img img {
     margin: 0px 0px 56px 0px;
     text-align: center;
     position: relative;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     color: #000000;
     font-size: 36px;
     font-weight: 400;
@@ -494,7 +498,8 @@ a:hover .clothes-img img {
     text-align: center;
     margin: 0px 0px 20px 0px;
     color: #000000;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -519,7 +524,7 @@ a:hover .clothes-img img {
 .aut-let-price {
     text-align: center;
     color: #000000;
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 14px;
     font-weight: 500;
 
@@ -564,7 +569,8 @@ a:hover .clothes-img img {
     align-items: center;
     margin: 40px 0px 67px 0px;
     color: #000000;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     font-size: 36px;
     font-weight: 400;
 }
@@ -593,7 +599,7 @@ a:hover .clothes-img img {
 .main-brands__link{
     color: #000000;
     font-size: 14px;
-    font-family: 'GeometriaMedium';
+     font-family: "SFUIDisplay-Medium";
     line-height: 25px;
     text-transform: uppercase;
 }
@@ -632,7 +638,8 @@ a:hover .clothes-img img {
 
 .form-text {
     color: #000000;
-    font-family: 'NewStandardOld', sans-serif;
+    font-family: "Peterburg";
+
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
@@ -653,7 +660,7 @@ a:hover .clothes-img img {
     color: #666666;
     font-size: 14px;
     font-weight: 400;
-    font-family: 'GeometriaRegular';
+    font-family: "SFUIDisplay-Regular";
 }
 .form-btn {
     width: 50px;
@@ -679,7 +686,8 @@ a:hover .clothes-img img {
     font-weight: 500;
     letter-spacing: 0.38px;
     padding-bottom: 20px;
-    font-family: 'GeometriaMedium';
+   font-family: "Peterburg";
+
 }
 
 .footer-item {
@@ -719,7 +727,7 @@ a:hover .clothes-img img {
 }
 
 .footer-item__pay{
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.38px;
@@ -750,7 +758,7 @@ a:hover .clothes-img img {
 .social-text {
     margin: 0px 27px 0px 0px;
     color: #000000;
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 15px;
     font-weight: 500;
     line-height: 30px;
@@ -770,7 +778,7 @@ a:hover .clothes-img img {
 .footer-item__networks{
     display: flex;
     align-items: center;
-    font-family: 'GeometriaMedium', sans-serif;
+    font-family: "SFUIDisplay-Medium";
     font-size: 15px;
     font-weight: 500;
     letter-spacing: 0.38px;
@@ -805,7 +813,7 @@ a:hover .clothes-img img {
 
 .footer-mailing__text{
     color: #000000;
-    font-family: "NewStandardOld", sans-serif;
+    font-family: "Peterburg";
     font-size: 30px;
     font-weight: 400;
     line-height: 40px;
@@ -835,7 +843,7 @@ a:hover .clothes-img img {
     color: #000000;
 font-size: 36px;
 text-align: center;
-font-family: 'NewStandardOld';
+font-family: "Peterburg";
 line-height: 48px;
 font-weight: 400;
     position: relative;
@@ -1082,7 +1090,6 @@ position: relative;
     width: 100%;
     height: 100%;
     z-index: -1;
-    transform: translateX(-200%);
     -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
@@ -1096,19 +1103,16 @@ position: relative;
     -o-transition: all 0.8s;
     transition: all 0.8s;
 }
-.boutique:hover .boutique__image {
-    transform: translateX(0%);
-}
-.boutique:hover a,
-.boutique:hover {
+.boutique a,
+.boutique {
     color: #fff;
 }
-.boutique.active {
+.boutique {
     color: #fff;
     background-image: url(../img/boutique_bg.jpg);
 }
-.boutique.active .link-insta,
-.boutique.active .boutique__phones a {
+.boutique .link-insta,
+.boutique .boutique__phones a {
     color: #fff;
 }
 .boutique__logo {
@@ -1124,18 +1128,6 @@ position: relative;
             -webkit-transition: all 0.8s;
     -o-transition: all 0.8s;
     transition: all 0.8s;
-}
-.boutique__logo img:nth-child(2) {
-    opacity: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.boutique:hover .boutique__logo img:nth-child(1) {
-    opacity: 0;
-}
-.boutique:hover .boutique__logo img:nth-child(2) {
-    opacity: 1;
 }
 .boutique__logo,
 .boutique .link-insta {
@@ -1162,7 +1154,7 @@ line-height: 21px;
 font-size: 30px;
 line-height: 24px;
 padding-bottom: 25px;
-font-family: 'GeometriaMedium';
+ font-family: "SFUIDisplay-Medium";
 text-transform: uppercase;
 }
 .boutique__phones a {
@@ -1187,7 +1179,7 @@ font-size: 30px;
 padding-bottom: 25px;
 padding-top: 10px;
 font-weight: 400;
- font-family: 'NewStandardOld';
+ font-family: "Peterburg";
 line-height: 48px;
 }
 .breadcumbs {
@@ -1301,7 +1293,7 @@ font-size: 20px;
 line-height: 28px;
 padding-bottom: 35px;
 max-width: 385px;
-font-family: 'GeometriaMedium';
+ font-family: "SFUIDisplay-Medium";
 color: #000;
 }
 .card__line {
@@ -1311,13 +1303,13 @@ color: #000;
 }
 .card__line strong {
     font-weight: normal;
-    font-family: 'GeometriaMedium';
+     font-family: "SFUIDisplay-Medium";
 }
 .card__title-block {
     font-size: 24px;
     margin-bottom: 18px;
     padding-left: 15px;
-      font-family: 'NewStandardOld';
+      font-family: "Peterburg";
 }
 .list-simple {
     font-size: 14px;
@@ -1382,7 +1374,7 @@ background-image: url(../img/chevron-down.svg);
 background-size: 11px auto;
 background-repeat: no-repeat;
 background-position: center right 10px;
-font-family: 'GeometriaRegular';
+font-family: "SFUIDisplay-Regular";
         -ms-appearance: none;
     appearance: none!important;
     -moz-appearance: none;
@@ -1421,7 +1413,7 @@ text-decoration: line-through;
 }
 .card__price {
     color: #000000;
-font-family: 'GeometriaMedium';
+ font-family: "SFUIDisplay-Medium";
 font-size: 24px;
 }
 .btn-main {
@@ -1439,7 +1431,7 @@ justify-content: center;
 text-align: center;
 border: 2px solid #b0a563;
 background-color: #ffffff;
-font-family: 'GeometriaMedium';
+ font-family: "SFUIDisplay-Medium";
 -webkit-transition: all 0.3s;
 -o-transition: all 0.3s;
 transition: all 0.3s;
@@ -1457,7 +1449,7 @@ transition: all 0.3s;
     font-size: 13px;
     color: #000;
     width: 100%;
-    font-family: 'GeometriaMedium';
+     font-family: "SFUIDisplay-Medium";
 border: 1px solid rgba(204, 204, 204, 0.5);
 background-color: #ffffff;
 }
@@ -1480,7 +1472,7 @@ background-color: #ffffff;
 .btn-black {
     height: 53px;
     font-size: 14px;
-    font-family: 'GeometriaMedium';
+     font-family: "SFUIDisplay-Medium";
     color: #fff;
     display: -webkit-flex;
     display: -moz-flex;
@@ -1513,7 +1505,7 @@ background-color: #ffffff;
 font-size: 24px;
 padding: 14px 0;
 padding-right: 15px;
- font-family: 'NewStandardOld';
+ font-family: "Peterburg";
  cursor: pointer;
  position: relative;
 }
@@ -1596,7 +1588,7 @@ line-height: 21px;
     color: #666666;
 font-size: 20px;
 padding-bottom: 20px;
-font-family: 'NewStandardOld';
+font-family: "Peterburg";
 }
 .filters-wrap {
     display: -webkit-flex;
@@ -1612,7 +1604,7 @@ font-size: 14px;
     padding-right: 5px;
     background-color: transparent;
     border: none;
-    font-family: 'GeometriaRegular', sans-serif;
+    font-family: "SFUIDisplay-Regular";
     cursor: pointer;
     outline: none;
     background-image: url(../img/chevron-down-2.svg);
@@ -1648,7 +1640,7 @@ select::-ms-expand {
 .link-page {
     color: #b0a563;
     border-bottom: 1px #b0a563 solid;
-    font-family: 'GeometriaMedium';
+     font-family: "SFUIDisplay-Medium";
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
@@ -1758,7 +1750,7 @@ justify-content: center;
     max-height: 100%;
 }
 .text-main strong {
-    font-family: "Geometria-Bold", sans-serif;
+    font-family: "SFUIDisplay-Bold";
     font-weight: normal;
 }
 .text-main a {
@@ -1809,7 +1801,7 @@ background-color: #ffffff;
 .menu-dropdown__title {
     color: #b0a563;
     padding-bottom: 20px;
-     font-family: 'GeometriaMedium';
+      font-family: "SFUIDisplay-Medium";
     text-transform: uppercase;
 }
 .menu-wrap > .row > div {
@@ -1856,7 +1848,8 @@ background-color: #ffffff;
 }
 .menu-image__name {
     font-size: 30px;
-font-family: 'NewStandardOld', sans-serif;
+font-family: "Peterburg";
+
 line-height: 48px;
 text-transform: uppercase;
 }
@@ -1886,7 +1879,7 @@ text-transform: uppercase;
 .contacts__title {
     font-size: 24px;
     margin-bottom: 56px;
-     font-family: 'GeometriaRegular', sans-serif;
+     font-family: "SFUIDisplay-Regular";
      font-weight: 400;
     position: relative;
 }
@@ -1912,7 +1905,7 @@ text-transform: uppercase;
 .name-contact {
     color: #000;
     padding-bottom: 40px;
-  font-family: 'GeometriaMedium';
+   font-family: "SFUIDisplay-Medium";
 }
 .text-contact {
     color: #000;
@@ -1938,12 +1931,12 @@ font-size: 18px;
 line-height: 24px;
 padding-bottom: 7px;
 text-transform: uppercase;
-font-family: 'GeometriaMedium';
+ font-family: "SFUIDisplay-Medium";
 }
 .content-map {
     line-height: 24px;
     color: #000000;
-    font-family: 'GeometriaRegular';
+    font-family: "SFUIDisplay-Regular";
 font-size: 14px;
 }
 .content-map a {
@@ -2125,3 +2118,55 @@ line-height: 21px;
 .delivery {
     padding-bottom: 52px;
 }  
+.boutique__title {
+    font-size: 14px;
+line-height: 21px;
+font-family: "Peterburg";
+padding-bottom: 5px;
+padding-top: 15px;
+font-style: italic;
+}
+.boutique__title:first-of-type {
+    padding-top: 0;
+}
+.boutique .col-md-5 {
+    text-align: center;
+}
+.boutique__phones {
+    padding: 0;
+}
+.boutique__value {
+    font-size: 18px;
+line-height: 24px;
+letter-spacing: 0.45px;
+   font-family: "SFUIDisplay-Bold";
+}
+.boutique__value a {
+    color: #fff;
+}
+.boutique {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 9px;
+}
+.logo-link img {
+    width: 96px;
+    height: auto;
+}
+.row_bottom-header {
+    padding-top: 15px;
+}
+.list-adress {
+    color: #000000;
+font-size: 14px;
+line-height: 21px;
+}
+.list-adress__name {
+     font-family: "SFUIDisplay-Bold";
+}
+.list-adress li {
+    margin-bottom: 23px;
+}
+.footer-mail {
+    padding-bottom: 30px;
+}

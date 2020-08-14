@@ -385,12 +385,7 @@
 .boutique a, .boutique {
     color: #fff;
 }
-.boutique__logo img:nth-child(2) {
-	opacity: 1;
-}
-.boutique__logo img:nth-child(1) {
-	opacity: 0;
-}
+
 .hidden_mob {
 	display: none;
 }
@@ -484,7 +479,7 @@
 }
 .filter-mob__btn {
 	    color: #666666;
-    font-family: 'NewStandardOld';
+    font-family: "Peterburg";
 	width: 50%;
 	padding: 15px 20px;
 	font-size: 18px;
@@ -550,6 +545,9 @@
 }
 .gender-mobile li.active {
 	border-color: #000;
+}
+.boutique__title:first-of-type {
+	padding-top: 15px;
 }
 }
 
@@ -713,6 +711,17 @@
 .item-number-delivery__name {
     font-size: 20px;
     margin-bottom: 25px;
+}
+.boutique__value {
+    font-size: 16px;
+    line-height: 21px;
+    }
+    .list-adress li {
+    margin-bottom: 9px;
+    font-size: 14px;
+}
+.header-logo {
+	margin-top: 23px;
 }
 }
 
