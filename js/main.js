@@ -184,8 +184,19 @@ $(document).ready(function(){
       heightDetect();
     });
 
-objectFitImages()
+objectFitImages();
 
+
+$(".form-click button").click(function(e) {
+  e.preventDefault();
+  $.fancybox({
+    'href': '#buy-click'
+  });
+});
+
+$(".fancybox").fancybox();
+
+$(".input-phone").mask("+7 (999) 999-99-99");
   });
 
   // autlet-slider
